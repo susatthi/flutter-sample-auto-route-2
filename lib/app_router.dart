@@ -16,17 +16,11 @@ class AppRouter extends _$AppRouter {
           children: [
             AutoRoute(
               path: 'home',
-              page: HomeRouterRoute.page,
-              children: [
-                AutoRoute(initial: true, page: HomeRoute.page),
-              ],
+              page: HomeRoute.page,
             ),
             AutoRoute(
               path: 'mypage',
-              page: MypageRouterRoute.page,
-              children: [
-                AutoRoute(initial: true, page: MypageRoute.page),
-              ],
+              page: MypageRoute.page,
             ),
           ],
         ),

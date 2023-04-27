@@ -11,12 +11,8 @@ class RootPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return AutoTabsRouter(
       routes: const [
-        // ここには各タブ画面のルートではなく、各タブ毎に用意した
-        // ルーター画面のルートを指定してください
-        // × HomeRoute
-        // ○ HomeRouterRoute
-        HomeRouterRoute(),
-        MypageRouterRoute(),
+        HomeRoute(),
+        MypageRoute(),
       ],
       builder: (context, child) {
         // タブが切り替わると発火します
