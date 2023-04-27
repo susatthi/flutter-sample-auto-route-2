@@ -4,7 +4,7 @@ import 'home_page.dart';
 import 'mypage_page.dart';
 import 'root_page.dart';
 
-part 'router.gr.dart';
+part 'app_router.gr.dart';
 
 @AutoRouterConfig(replaceInRouteName: 'Page,Route')
 class AppRouter extends _$AppRouter {

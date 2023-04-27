@@ -1,7 +1,7 @@
 import 'package:auto_route/auto_route.dart';
 import 'package:flutter/material.dart';
 
-import 'router.dart';
+import 'app_router.dart';
 
 @RoutePage()
 class RootPage extends StatelessWidget {
