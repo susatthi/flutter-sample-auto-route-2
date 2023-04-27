@@ -11,7 +11,7 @@ class RootPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return AutoTabsRouter(
       routes: const [
-        HomeRoute(),
+        HomeRouterRoute(),
         MypageRoute(),
       ],
       builder: (context, child) {

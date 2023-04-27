@@ -3,6 +3,11 @@ import 'package:flutter/material.dart';
 import 'package:flutter_sample_auto_route_2/app_router.dart';
 
 @RoutePage()
+class HomeRouterPage extends AutoRouter {
+  const HomeRouterPage({super.key});
+}
+
+@RoutePage()
 class HomePage extends StatelessWidget {
   const HomePage({super.key});
 
