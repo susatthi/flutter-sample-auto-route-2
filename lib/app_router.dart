@@ -1,5 +1,6 @@
 import 'package:auto_route/auto_route.dart';
 
+import 'favorite_page.dart';
 import 'home_page.dart';
 import 'mypage_page.dart';
 import 'root_page.dart';
@@ -17,6 +18,12 @@ class AppRouter extends _$AppRouter {
             AutoRoute(
               path: 'home',
               page: HomeRoute.page,
+              children: [
+                AutoRoute(
+                  path: 'favorite',
+                  page: FavoriteRoute.page,
+                ),
+              ],
             ),
             AutoRoute(
               path: 'mypage',
